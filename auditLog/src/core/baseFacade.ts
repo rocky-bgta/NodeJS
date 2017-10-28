@@ -1,11 +1,10 @@
-/*
-/!**
+/**
  *Created By: Md. Nazmus Salahin
  *Created Date: 10/10/2017
  *Modified By:
  *Modified date:
  *(C) CopyRight Nybsys ltd.
- *!/
+ */
 import ResponseMessage from "./responseMessage";
 import BllExceptionLog from "../bllManager/exceptionLogBll";
 import {Inject} from "typescript-ioc";
@@ -78,4 +77,4 @@ export default abstract class BaseFacade {
         return this.responseMessage;
     }
 
-}*/
+}

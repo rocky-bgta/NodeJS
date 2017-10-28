@@ -23,19 +23,6 @@ export default class Dao extends BaseDao {
                     Util.logger('save Dao Failed', err);
                 });
             });
-
-
-           /* Util.logger("Dao save object", object);
-            saveEntity = new this.entity(object);
-            await saveEntity.save().then((row: any) => {
-                Util.logger('save Dao Success', row);
-                saveEntity = row;
-                return;
-            }).catch((err: any) => {
-                Util.logger('save Dao Failed', err);
-                saveEntity = null;
-                return;
-            });*/
         } catch (err) {
             Util.logger('save Dao Error Log', err);
             throw err;
