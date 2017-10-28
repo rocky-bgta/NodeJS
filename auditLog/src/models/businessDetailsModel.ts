@@ -2,7 +2,7 @@
 * BusinessDetails model class
 * */
 
-import BaseModel from "../core/baseModel";
+import BaseModel from "../core/abstractClass/baseModel";
 
 export default class BusinessDetailsModel extends BaseModel {
     businessDetailsID: number;

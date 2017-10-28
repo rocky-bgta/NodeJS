@@ -7,16 +7,14 @@
  */
 import Dao from "../../dataAccess/dao";
 import Utils from "../../utils/utils";
-import {globalModule} from "../global/module";
-import {ICustomType} from "../ICustomType";
+import Core from "./core";
 
-export abstract class abstractBll {
-    //abstract makeSound(): void;
+export abstract class abstractBll extends Core{
 
     public dao: Dao;
-    public customObject: ICustomType;
+
     constructor() {
-        this.customObject = {};
+        super();
     }
 
     public async save(model: any, logMessage?:string) {
@@ -88,17 +86,6 @@ export abstract class abstractBll {
             Utils.logger('Error Log', err);
             throw err;
         }
-        return result;
-    }
-
-    public getRawQueryBuilder(){
-        let result = globalModule.queryBuilder;
-        return result;
-    }
-
-    public getStringBuilder(){
-        let result;
-        result = new globalModule.stringBuilder();
         return result;
     }
 }

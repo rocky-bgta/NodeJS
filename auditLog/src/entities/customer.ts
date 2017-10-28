@@ -1,5 +1,5 @@
 import {AllowNull, Column, DataType, IsEmail, Table, Unique} from 'sequelize-typescript';
-import BaseEntity from "../core/baseEntity";
+import BaseEntity from "../core/abstractClass/baseEntity";
 
 
 @Table

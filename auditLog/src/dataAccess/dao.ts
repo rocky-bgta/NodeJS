@@ -1,5 +1,5 @@
 import Util from '../utils/utils';
-import BaseDao from "../core/baseDao";
+import BaseDao from "../core/abstractClass/baseDao";
 import {sequelize} from "../db";
 
 export default class Dao extends BaseDao {

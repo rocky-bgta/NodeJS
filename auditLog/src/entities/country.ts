@@ -1,4 +1,4 @@
-import BaseEntity from "../core/baseEntity";
+import BaseEntity from "../core/abstractClass/baseEntity";
 import {Column, DataType, Table} from "sequelize-typescript";
 
 @Table

@@ -6,7 +6,7 @@
  *(C) CopyRight Nybsys ltd.
  */
 import {Column, DataType, Table} from "sequelize-typescript";
-import BaseEntity from "../core/baseEntity";
+import BaseEntity from "../core/abstractClass/baseEntity";
 
 @Table
 export default class ExceptionLog extends BaseEntity{

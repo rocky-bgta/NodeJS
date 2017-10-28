@@ -1,4 +1,4 @@
-import {Status} from "./enum/enums";
+import {Status} from "../enum/enums";
 
 export default abstract class BaseModel {
 

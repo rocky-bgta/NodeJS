@@ -5,11 +5,13 @@
  *Modified date:
  *(C) CopyRight Nybsys ltd.
  */
-import Util from "../utils/utils";
-import {sequelize} from "../db";
+import Util from "../../utils/utils";
+import {sequelize} from "../../db";
 import * as _ from 'lodash';
-export default class BaseDao {
+import Core from "./core";
+export default abstract class BaseDao extends Core {
     constructor() {
+        super();
     }
 
     public async executeRawQuery(query: string, type:any){
