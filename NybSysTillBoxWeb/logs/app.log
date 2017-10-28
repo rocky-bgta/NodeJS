@@ -1,0 +1,270 @@
+{"level":"info","message":"[Sat Oct 07 2017 19:05:50 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:05:50.584Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:05:53 +0000] \"GET / HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:05:53.607Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:09:09 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT \"id\", \"name\", \"password\", \"email\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"Users\" WHERE \"Users\".\"id\" = 1;","timestamp":"2017-10-07T13:09:09.137Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:09:09 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT \"id\", \"name\", \"email\" FROM \"Users\" AS \"Users\" WHERE \"Users\".\"id\" = 1;","timestamp":"2017-10-07T13:09:09.146Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:09:09 +0000] \"GET /user HTTP/1.1\" 200 73\n","timestamp":"2017-10-07T13:09:09.148Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:17 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:17.337Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:17 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:17.406Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:17 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:17.456Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:17 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:17.492Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:20 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:20.172Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:20 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:20.216Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:20 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:20.272Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:20 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:20.273Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:22 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:22.849Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:22 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:22.854Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:22 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:22.953Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:23 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:23.065Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:25 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:25.568Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:25 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:25.600Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:25 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:25.800Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:26 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:26.119Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:34 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:34.034Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:34 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:34.057Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:34 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:34.151Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:23:34 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:23:34.196Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:24:30 +0000] \"GET / HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:24:30.376Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:26:52 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:26:52.212Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:26:52 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:26:52.220Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:26:52 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:26:52.338Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:26:52 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:26:52.346Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:30:32 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:30:32.365Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:30:32 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:30:32.365Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:30:32 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:30:32.456Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:30:32 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:30:32.505Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/ HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.343Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.386Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.388Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/polyfill.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.390Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.393Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/require.min.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.407Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/img/favicon.ico HTTP/1.1\" 200 894\n","timestamp":"2017-10-07T13:30:36.509Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/main.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.512Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/api_project.js?v=1507383036516 HTTP/1.1\" 200 353\n","timestamp":"2017-10-07T13:30:36.535Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/locale.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.535Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/lodash.min.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.536Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/utils/send_sample_request.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.538Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/jquery.min.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.538Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/api_data.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.538Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/semver.min.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.545Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/webfontloader.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.552Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/path-to-regexp/index.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.552Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/prettify/prettify.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.554Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/ca.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.558Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/de.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.558Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/handlebars.min.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.561Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/fr.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.562Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/es.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.564Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/nl.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.565Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/pl.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.567Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/pt_br.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.568Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/ru.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.577Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/zh.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.583Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/locales/zh_cn.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.583Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/bootstrap.min.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.602Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.625Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:30:36 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1507383036516 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:30:36.641Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:09 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:09.444Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:09 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:09.445Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:09 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:09.446Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/ HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:15.656Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:15.683Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:15.684Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:15.684Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/polyfill.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:15.688Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/require.min.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:15.691Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/main.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:31:15.865Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/api_project.js?v=1507383075871 HTTP/1.1\" 200 353\n","timestamp":"2017-10-07T13:31:15.887Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/lodash.min.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.891Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/locale.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.892Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/api_data.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.893Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/jquery.min.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.894Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/semver.min.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.896Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/utils/send_sample_request.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.900Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/webfontloader.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.902Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/path-to-regexp/index.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.904Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/prettify/prettify.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.925Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/de.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.954Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/ca.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.954Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/es.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.955Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/fr.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.958Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/nl.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.959Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/pl.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.961Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/pt_br.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.964Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/ru.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.965Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/zh.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.966Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/locales/zh_cn.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.968Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:15 +0000] \"GET /apidoc/vendor/handlebars.min.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:15.987Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:16 +0000] \"GET /apidoc/vendor/bootstrap.min.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:16.036Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:16 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:16.071Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:31:16 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1507383075871 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:31:16.089Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/ HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:29.708Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:29.756Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:29.762Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:29.789Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/vendor/polyfill.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:29.796Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/vendor/require.min.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:29.804Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /favicon.ico HTTP/1.1\" 404 -\n","timestamp":"2017-10-07T13:33:29.886Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/main.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:29.908Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:29 +0000] \"GET /apidoc/img/favicon.ico HTTP/1.1\" 200 894\n","timestamp":"2017-10-07T13:33:29.917Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/lodash.min.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.307Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/utils/send_sample_request.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.314Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/api_project.js?v=1507383211184 HTTP/1.1\" 200 353\n","timestamp":"2017-10-07T13:33:31.319Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/jquery.min.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.320Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/locale.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.321Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/api_data.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.358Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/semver.min.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.361Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/webfontloader.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.367Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/path-to-regexp/index.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.369Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/prettify/prettify.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.374Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/handlebars.min.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.385Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/ca.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.390Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/de.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.395Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/es.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.401Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/fr.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.405Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/nl.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.409Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/pl.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.415Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/pt_br.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.420Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/ru.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.425Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/zh.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.431Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/locales/zh_cn.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.436Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/bootstrap.min.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.441Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.472Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:31 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1507383211184 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:31.499Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/ HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.453Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.495Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.502Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.600Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/polyfill.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.603Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/require.min.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.606Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/img/favicon.ico HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.650Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/main.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:33:39.766Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/jquery.min.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.838Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/lodash.min.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.846Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/locales/locale.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.847Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/api_project.js?v=1507383219789 HTTP/1.1\" 200 353\n","timestamp":"2017-10-07T13:33:39.874Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/api_data.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.876Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/utils/send_sample_request.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.883Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/semver.min.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.887Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/webfontloader.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.888Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/path-to-regexp/index.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.891Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:39 +0000] \"GET /apidoc/vendor/prettify/prettify.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:39.906Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/vendor/handlebars.min.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.035Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/vendor/bootstrap.min.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.231Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/ca.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.256Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/es.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.262Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/de.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.264Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/ru.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.266Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/fr.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.264Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/nl.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.269Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/pt_br.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.271Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/zh.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.272Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/zh_cn.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.272Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/locales/pl.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.273Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.465Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:33:40 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1507383219789 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:33:40.694Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/ HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:22.273Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:22.302Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:22.303Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:22.303Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/polyfill.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:22.309Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/require.min.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:22.311Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/main.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:22.482Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/api_project.js?v=1507383322487 HTTP/1.1\" 200 353\n","timestamp":"2017-10-07T13:35:22.501Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/locale.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.506Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/jquery.min.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.507Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/lodash.min.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.507Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/api_data.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.508Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/semver.min.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.509Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/utils/send_sample_request.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.515Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/webfontloader.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.525Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/path-to-regexp/index.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.528Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/prettify/prettify.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.555Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/ca.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.558Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/es.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.558Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/de.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.559Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/fr.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.559Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/nl.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.560Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/pl.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.561Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/pt_br.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.573Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/ru.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.574Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/zh.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.575Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/locales/zh_cn.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.576Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/handlebars.min.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.612Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/bootstrap.min.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.654Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.732Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:22 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1507383322487 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:22.746Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/ HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:29.016Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:29.044Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:29.045Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:29.045Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/polyfill.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:29.049Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/require.min.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:29.049Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/main.js HTTP/1.1\" 304 -\n","timestamp":"2017-10-07T13:35:29.223Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/api_project.js?v=1507383329225 HTTP/1.1\" 200 353\n","timestamp":"2017-10-07T13:35:29.242Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/lodash.min.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.244Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/locale.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.248Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/api_data.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.247Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/jquery.min.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.252Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/path-to-regexp/index.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.255Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/semver.min.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.256Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/webfontloader.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.260Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/utils/send_sample_request.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.262Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/prettify/prettify.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.284Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/ca.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.315Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/de.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.317Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/es.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.323Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/fr.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.324Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/nl.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.325Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/pl.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.331Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/pt_br.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.336Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/ru.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.336Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/zh_cn.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.338Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/locales/zh.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.337Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/handlebars.min.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.377Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/bootstrap.min.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.420Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.455Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:35:29 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1507383329225 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:35:29.477Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:43:18 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:43:18.328Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:43:18 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:43:18.373Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:43:18 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:43:18.469Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:43:18 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:43:18.529Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:43:31 +0000] \"GET / HTTP/1.1\" 200 35\n","timestamp":"2017-10-07T13:43:31.386Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:43:31 +0000] \"GET /favicon.ico HTTP/1.1\" 404 -\n","timestamp":"2017-10-07T13:43:31.545Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/ HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.365Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/bootstrap.min.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.484Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/prettify.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.490Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/polyfill.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.495Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/require.min.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.500Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/css/style.css HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.517Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/main.js HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.699Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/img/favicon.ico HTTP/1.1\" 200 894\n","timestamp":"2017-10-07T13:44:50.703Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/locale.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.726Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/lodash.min.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.728Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/api_project.js?v=1507383890701 HTTP/1.1\" 200 353\n","timestamp":"2017-10-07T13:44:50.730Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/jquery.min.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.732Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/api_data.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.733Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/utils/send_sample_request.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.741Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/semver.min.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.742Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/webfontloader.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.744Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/path-to-regexp/index.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.747Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/prettify/prettify.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.752Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/ca.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.760Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/de.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.763Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/es.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.770Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/pt_br.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.777Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/fr.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.778Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/nl.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.778Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/ru.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.782Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/pl.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.784Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/zh_cn.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.785Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/locales/zh.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.785Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/handlebars.min.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.820Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/bootstrap.min.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.884Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.903Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:13:44:50 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1507383890701 HTTP/1.1\" 200 -\n","timestamp":"2017-10-07T13:44:50.922Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:59:51 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:59:51.333Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:59:51 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:59:51.355Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:59:51 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:59:51.439Z"}
+{"level":"info","message":"[Sat Oct 07 2017 19:59:51 GMT+0600 (Bangladesh Standard Time)] Executing (default): SELECT 1+1 AS result","timestamp":"2017-10-07T13:59:51.445Z"}
+{"level":"info","message":"::1 - - [07/Oct/2017:14:00:19 +0000] \"GET / HTTP/1.1\" 200 35\n","timestamp":"2017-10-07T14:00:19.510Z"}

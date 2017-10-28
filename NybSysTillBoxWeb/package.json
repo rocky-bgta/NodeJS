@@ -1,0 +1,47 @@
+{
+  "name": "tillboxweb",
+  "version": "1.0.0",
+  "description": "Back-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run apidoc && npm run clusters",
+    "debug": "babel-node %NODE_DEBUG_OPTION% app.js",
+    "apidoc": "apidoc -i routes/ -o public/apidoc",
+    "clusters": "babel-node clusters.js",
+    "clean": "rm -rf node_modules",
+    "test": "node test.js"
+  },
+  "apidoc": {
+    "name": "Node Task API - Documentation",
+    "template": {
+      "forceLanguage": "en"
+    }
+  },
+  "author": "Md. Nazmus Salahin Rocky",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "consign": "^0.1.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "helmet": "^1.1.0",
+    "jwt-simple": "^0.4.1",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0",
+    "pg": "^6.1.0",
+    "sequelize": "^3.19.2",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "apidoc": "^0.15.1",
+    "babel-register": "^6.5.2",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  }
+}
