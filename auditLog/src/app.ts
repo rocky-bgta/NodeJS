@@ -2,15 +2,10 @@ import * as express from 'express';
 import {Server} from 'typescript-rest';
 import * as http from 'http';
 import * as path from 'path';
-import * as cors from 'cors';
 import controllers from './controllers';
-//import Logger from './middlewares/logger';
-//import * as morgan from "morgan";
 import {setting} from './setting/setting';
-//import Filter from './middlewares/filter';
 import {sequelize} from "./db";
-import * as helmet  from "helmet";
-import * as compression from "compression";
+
 
 export class ApiServer {
 
@@ -46,29 +41,8 @@ export class ApiServer {
      * Configure the express app.
      */
      private config(): void {
-        //let logger = this.accessLog.getWinstonLogger();
-        // Native Express configuration
-        // this.app.use( bodyParser.urlencoded( { extended: false } ) );
-        // this.app.use( bodyParser.json( { limit: '1mb' } ) );
-         // User morganLogger middleware
-      /*  this.app.use(morgan("common", {
-             stream: {
-             write: (message:any) => {
-                 logger.info(message);
-                 }
-             }
-         }));*/
 
-        this.app.use(helmet());
-        this.app.use(helmet.noCache());
-        this.app.use(helmet.frameguard());
         this.app.disable('x-powered-by');
-
-        this.app.use(cors({
-            methods: ["GET", "POST", "PUT", "DELETE"]
-        }));
-
-        this.app.use(compression());
 
         //this.filter.getAllRoutes(this.app); // Applying filter
 

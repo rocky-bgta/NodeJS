@@ -3,7 +3,7 @@
 //import * as fs from 'fs';
 //import * as path from 'path'
 import Utils from "../utils/utils";
-import winston = require("winston");
+
 
 export default class Logger {
 
@@ -14,21 +14,6 @@ export default class Logger {
         //Utils.logger('Arch', process.arch);
     }
 
-
-    getWinstonLogger() {
-        let logger = new winston.Logger({
-            transports: [
-                new winston.transports.File({
-                    level: "info",
-                    filename: "./access.log",
-                    maxsize: 1048576,
-                    maxFiles: 1,
-                    colorize: true
-                })
-            ]
-        });
-        return logger;
-    }
 }
 
 /*export default (app: express.Application) => {

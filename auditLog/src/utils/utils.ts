@@ -7,7 +7,6 @@
  */
 import {Sequelize} from "sequelize-typescript";
 import * as _ from 'lodash';
-let randomString = require("randomstring");
 let fs = require('fs');
 
 export default class Utils {
@@ -23,13 +22,6 @@ export default class Utils {
             dataBaseCreated = false;
         }
         return dataBaseCreated;
-    }
-
-    static generateRandomString() {
-        return randomString.generate({
-            length: 20,
-            charset: "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        });
     }
 
     static logger(message: string, object?: any) {

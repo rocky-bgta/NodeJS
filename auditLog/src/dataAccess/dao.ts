@@ -53,9 +53,6 @@ export default class Dao extends BaseDao {
 
             } else {
                 await this.entity.findAll().then((rows: any) => {
-                    /*entity.forEach(function (row: any) {
-                        returnRows.push(row.dataValues);
-                    });*/
                     returnRows = rows;
 
                 }).catch((err: any) => {
