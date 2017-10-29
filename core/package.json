@@ -1,0 +1,47 @@
+{
+  "name": "auditLog",
+  "version": "0.0.1",
+  "description": "Audit Log Module",
+  "repository": "",
+  "license": "MIT",
+  "main": "index.ts",
+  "scripts": {
+    "run": "npm run build && npm run start",
+    "start": "./node_modules/.bin/ts-node src/index.ts",
+    "debug": "npm run build && npm run support_debug",
+    "support_debug": "./node_modules/.bin/ts-node %NODE_DEBUG_OPTION% src/index.ts",
+    "build": "npm run clean && tsc && npm run swagger",
+    "clean": "rimraf dist",
+    "swagger": "swaggerGen -c ./swagger.config.json",
+    "tsc": "tsc && npm run swagger",
+    "watch": "./node_modules/.bin/ts-node-dev dist/index.js"
+  },
+  "dependencies": {
+    "@types/datejs": "0.0.30",
+    "@types/dotenv": "^4.0.2",
+    "@types/knex": "0.0.62",
+    "dotenv": "^4.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken-refresh": "^5.7.0",
+    "knex": "^0.13.0",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "pg-pool": "^2.0.3",
+    "reflect-metadata": "^0.1.10",
+    "sequelize": "^3.30.4",
+    "sequelize-typescript": "^0.5.0",
+    "string-builder": "^0.1.4",
+    "typescript-ioc": "^1.0.2",
+    "typescript-rest": "^1.1.1",
+    "typescript-rest-swagger": "0.0.10"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "source-map-support": "^0.4.15",
+    "ts-node": "~3.0.6",
+    "tslint": "~5.4.3",
+    "typedoc": "^0.5.10",
+    "typescript": "~2.3.4",
+    "typescript-formatter": "^5.2.0"
+  }
+}
