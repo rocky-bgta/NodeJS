@@ -8,6 +8,7 @@
 
 
 import Core from "./core";
+import ResponseMessage from "../responseMessage";
 
 
 export default abstract class BaseFacade extends Core {
@@ -16,9 +17,12 @@ export default abstract class BaseFacade extends Core {
         super()
     }
 
-    getResponseMessBuilder(message: string, responseObject: any, code: any, token: any = null, businessID: any = 0):any {
-        let result;
-        this.responseMessage = this.getResponseMessage();
+    responseMessage: ResponseMessage;
+
+
+    getResponseMessBuilder(message: string, responseObject: any, code: any, token: any = null, businessID: any = 0): ResponseMessage {
+        let result:ResponseMessage;
+        this.responseMessage = new ResponseMessage();
         this.responseMessage.setMessage(message);
         this.responseMessage.setResponseObject(responseObject);
         this.responseMessage.setResponseCode(code);

@@ -5,21 +5,14 @@
  *Modified date:
  *(C) CopyRight Nybsys ltd.
  */
-import ResponseMessage from "../responseMessage";
 import {ICustomType} from "../interface/ICustomType";
 import {globalModule} from "../global/module";
 
 export default abstract class Core {
-    responseMessage: ResponseMessage;
     customObject: ICustomType;
 
     constructor() {
         this.customObject = {};
-    }
-
-    getResponseMessage(){
-        this.responseMessage = new ResponseMessage();
-        return this.responseMessage;
     }
 
     public getRawQueryBuilder(){
