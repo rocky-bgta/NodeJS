@@ -106,7 +106,7 @@ export default class Filter extends Core {
                     let whereCondition = this.customObject;
                     whereCondition.token = expiredToken;
                     await this.sessionBll.updateSession(this.sessionModel,whereCondition);
-                    this.buildClientData(clientHeaderData,decodedTokenModel,req, this.newToken, this.apiUrl);
+                    this.buildClientData(clientHeaderData,decodedTokenModel,req, this.newToken, this.apiUrl,this.sessionModel.sessionID);
 
                 }
             }
@@ -116,7 +116,7 @@ export default class Filter extends Core {
         }
     }
 
-    buildClientData(clientHeaderData:any, decodedTokenModel: TokenModel, req:express.Request, token:string, apiUrl:string){
+    buildClientData(clientHeaderData:any, decodedTokenModel: TokenModel, req:express.Request, token:string, apiUrl:string,sessionID?:number){
         let clientJsonData:RequestClientData;
 
     if(clientHeaderData!=undefined) {
@@ -131,6 +131,8 @@ export default class Filter extends Core {
             clientDataExport.businessID =  decodedTokenModel.decodedTokenObject.data.businessID;
             clientDataExport.accessRight = decodedTokenModel.decodedTokenObject.data.accessRight;
             clientDataExport.businessDBName = decodedTokenModel.decodedTokenObject.data.businessDBName;
+            if(sessionID!=null)
+                clientDataExport.sessionID = sessionID;
         }
     }
 
