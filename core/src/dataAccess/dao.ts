@@ -1,4 +1,4 @@
-import Util from '../utils/utils';
+import Util, {default as Utils} from '../utils/utils';
 import BaseDao from "../core/abstractClass/baseDao";
 import {sequelize} from "../db";
 
@@ -11,7 +11,7 @@ export default class Dao extends BaseDao {
     }
 
     public async save(object: any) {
-        let saveEntity: any=null;
+        let saveEntity: any = null;
         try {
             await sequelize.transaction(async (t) => {
                 await this.entity.create(object, {transaction: t}).then((row: any) => {
@@ -21,13 +21,29 @@ export default class Dao extends BaseDao {
                 }).catch((err: any) => {
                     t.rollback();
                     Util.logger('save Dao Failed', err);
+                    return;
                 });
             });
+
+
+
+            /* Utils.logger("Dao save object", object);
+             saveEntity = new this.entity(object);
+             await saveEntity.save().then((row: any) => {
+                 Utils.logger('save Dao Success', row);
+                 saveEntity = row;
+                 return;
+             }).catch((err: any) => {
+                 Utils.logger('save Dao Failed', err);
+                 saveEntity = null;
+                 return;
+             });*/
         } catch (err) {
             Util.logger('save Dao Error Log', err);
             throw err;
         } finally {
-            //sequelize.close();
+            if(saveEntity!=null)
+                saveEntity = saveEntity.dataValues;
         }
         return saveEntity;
     }
@@ -43,20 +59,26 @@ export default class Dao extends BaseDao {
                         [[columnName], [direction]]
                     ]
                 }).then((rows: any) => {
-                    returnRows = rows
-                    /*entity.forEach(function (row: any) {
-                        returnRows.push(row.dataValues);
-                    });*/
+                    if(rows!=null){
+                        for(let row of rows){
+                            returnRows.push(row.dataValues);
+                        }
+                    }
+                    return returnRows;
                 }).catch((err: any) => {
-                    returnRows = null;
+                    return returnRows = err;
                 });
 
             } else {
                 await this.entity.findAll().then((rows: any) => {
-                    returnRows = rows;
-
+                    if(rows!=null){
+                        for(let row of rows){
+                            returnRows.push(row.dataValues);
+                        }
+                    }
+                    return returnRows;
                 }).catch((err: any) => {
-                    returnRows = null;
+                    return returnRows = err;
                 });
             }
         } catch (err) {
@@ -69,50 +91,52 @@ export default class Dao extends BaseDao {
     }
 
     public async getAllByCondition(whereClause: object) {
-        let result: any = new Array<any>();
+        let resultRows: any = new Array<any>();
         try {
             await this.entity.findAll({
                 where: whereClause
             }).then((rows: any) => {
-                result = rows;
-                return;
+                if(rows!=null){
+                    for(let row of rows){
+                        resultRows.push(row.dataValues);
+                    }
+                }
+                return resultRows;
             }).catch((err: any) => {
-                result= err;
-                return;
+                return resultRows = err;
             });
         } catch (err) {
-            console.log("Dao findAllByOneCondition Error:  " + err.message);
+            Utils.logger("Dao findAllByOneCondition Error" , err);
             throw err;
         } finally {
 
         }
 
-        return result;
+        return resultRows;
     }
 
     public async getOneByCondition(whereCondition: object) {
-        let result:any=null;
+        let resultRow: any = null;
         try {
             await this.entity.findOne({
                 where: whereCondition
-            }).then((rows: any) => {
-                result = rows;
-                return;
+            }).then((row: any) => {
+                if(row!=null)
+                    return resultRow = row.dataValues;
             }).catch((err: any) => {
-                result = err;
-                return;
+                return resultRow = err;
             });
         } catch (err) {
-            console.log("Dao getOneByCondition Error:  " + err.message);
+            Utils.logger("Dao getOneByCondition Error:  " , err);
             throw err;
         } finally {
 
         }
-        return result;
+        return resultRow;
     }
 
-    public async updateByCondition(model: object, whereCondition: object) {
-        let result: any=null;
+    public async updateByCondition(model: object, whereCondition: object): Promise<any> {
+        let result: any = null;
         try {
             result = await this.entity.update(
                 model,
@@ -121,14 +145,13 @@ export default class Dao extends BaseDao {
                 }
             ).then((success: any) => {
                 Util.logger("Update success", success);
-                result = success;
+                return result = success;
             }).catch((err: any): any => {
                 Util.logger("Update Failed", err);
-                result = err;
-                return;
+                return result = err;
             });
         } catch (err) {
-            console.log("Dao updateByCondition Error:  " + err.message);
+            Utils.logger("Dao updateByCondition Error ", err);
             throw err;
         } finally {
 
@@ -137,15 +160,14 @@ export default class Dao extends BaseDao {
     }
 
     public async deleteByCondition(whereObject: Object) {
-        let result:any=null;
+        let result: any = null;
         try {
             await this.entity.destroy({
                 where: whereObject
             }).then((deleteCount: any) => {
-                result = deleteCount;
-            }).catch((err:any)=>{
-                result = err;
-                return;
+                return result = deleteCount;
+            }).catch((err: any) => {
+                return result = err;
             });
         } catch (err) {
             Util.logger("Dao delete by condition ", err);

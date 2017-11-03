@@ -1,10 +1,10 @@
 {
-  "name": "auditLog",
+  "name": "coreModule",
   "version": "0.0.1",
-  "description": "Audit Log Module",
+  "description": "Core Module For Tillbox Back-End",
   "repository": "",
   "license": "MIT",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "run": "npm run build && npm run start",
     "start": "./node_modules/.bin/ts-node src/index.ts",

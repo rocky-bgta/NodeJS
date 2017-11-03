@@ -7,14 +7,17 @@
  */
 import {Sequelize} from "sequelize-typescript";
 import * as _ from 'lodash';
+import {ICustomType} from "../core/interface/ICustomType";
+
 let fs = require('fs');
+let uniqid = require('uniqid');
 
 export default class Utils {
 
-    static async createDataBase(db: Sequelize, dataBaseName: string): Promise<boolean> {
+    static async createDataBase(db: Sequelize, dataBaseName: string):Promise<boolean> {
         let dataBaseCreated: boolean = false;
         try {
-            await db.query('CREATE DATABASE ' + dataBaseName);
+          await db.query('CREATE DATABASE ' + dataBaseName);
             dataBaseCreated = true;
         }
         catch (err) {
@@ -22,6 +25,13 @@ export default class Utils {
             dataBaseCreated = false;
         }
         return dataBaseCreated;
+    }
+
+    static generateUniqueID() {
+        let uniqueID : string;
+        uniqueID = uniqid();
+        return uniqueID;
+
     }
 
     static logger(message: string, object?: any) {
@@ -63,6 +73,36 @@ export default class Utils {
             Utils.logger('user id is not in correct formet', err);
         }
         return result;
+    }
+
+    static getDbNameByBusinessName(businessName: string){
+        let result:string;
+        try{
+            result = businessName+'_' + new Date().getTime();
+        }catch (err){
+            Utils.logger('user id is not in correct formet', err);
+        }
+        return result;
+    }
+
+    static castObject(targetObject: any, givenObject:any){
+        let buildObject: ICustomType = {};
+        let targetObjectPros = Object.keys(targetObject);
+        let givenObjectPros = Object.keys(givenObject);
+        for(let targetProperty of targetObjectPros){
+            for(let givenProperty of givenObjectPros){
+                if(targetProperty==givenProperty){
+                    buildObject[targetProperty] = givenObject[targetProperty];
+                    break;
+                }
+            }
+        }
+        return buildObject;
+    }
+
+    static uniqueIndexOnColunmn(tableName: string, columnName:string, indexName: string){
+        'CREATE UNIQUE INDEX'+  indexName +'ON' + '"'+ tableName+'"' + '((lower('+ columnName +')));';
+        //return buildObject;
     }
 
 }

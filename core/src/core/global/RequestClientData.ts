@@ -16,6 +16,7 @@ export default class RequestClientData {
     public pageName:string;
     public accessRight:number;
     public sessionID: number;
+    public businessDBName: string;
 
     constructor(){
         this.clientIP=null;
@@ -27,6 +28,7 @@ export default class RequestClientData {
         this.pageName=null;
         this.accessRight=null;
         this.sessionID=null;
+        this.businessDBName = null;
 
     }
 }

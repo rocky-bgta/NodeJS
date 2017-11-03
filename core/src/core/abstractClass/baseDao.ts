@@ -20,7 +20,7 @@ export default abstract class BaseDao extends Core {
             numType= _.toNumber(type);
             Util.logger("Dao executing row query");
             if(type==0) {
-                await sequelize.query(query).then(rows => {
+                await sequelize.query(query).then((rows:any[]) => {
                     result = rows[0];
                     return;
                 }).catch((err: any) => {
@@ -28,7 +28,7 @@ export default abstract class BaseDao extends Core {
                     return;
                 });
             }else {
-                await sequelize.query(query).spread((numberOfRows, metadata) => {
+                await sequelize.query(query).spread((numberOfRows:any, metadata:any) => {
                     result= numberOfRows;
                     return;
                 }).catch((err: any) => {

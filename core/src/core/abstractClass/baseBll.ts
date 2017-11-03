@@ -1,15 +1,15 @@
 /**
  *Created By: Md. Nazmus Salahin
- *Created Date: 10/26/2017
+ *Created Date: 10/16/2017
  *Modified By:
  *Modified date:
  *(C) CopyRight Nybsys ltd.
  */
-import Dao from "../../dataAccess/dao";
-import Utils from "../../utils/utils";
 import Core from "./core";
+import Utils from "../../utils/utils";
+import Dao from "../../dataAccess/dao";
 
-export abstract class abstractBll extends Core{
+export default abstract class BaseBll extends Core {
 
     public dao: Dao;
 
@@ -17,7 +17,7 @@ export abstract class abstractBll extends Core{
         super();
     }
 
-    public async save(model: any, logMessage?:string) {
+    public async save(model: any, logMessage?: string) {
         let result;
         try {
             Utils.logger(logMessage);
@@ -29,7 +29,7 @@ export abstract class abstractBll extends Core{
         return result;
     }
 
-    public async updateByCondition(model: object, whereCondition: object, logMessage?:string) {
+    public async updateByCondition(model: object, whereCondition: object, logMessage?: string) {
         let result;
         Utils.logger(logMessage);
         try {
@@ -41,7 +41,7 @@ export abstract class abstractBll extends Core{
         return result;
     }
 
-    public async deleteByCondition(whereCondition: object, logMessage?:string) {
+    public async deleteByCondition(whereCondition: object, logMessage?: string) {
         let result;
         Utils.logger(logMessage);
         try {
@@ -53,7 +53,7 @@ export abstract class abstractBll extends Core{
         return result;
     }
 
-    public async getAll(logMessage?:string){
+    public async getAll(logMessage?: string) {
         let result;
         try {
             Utils.logger(logMessage);
@@ -65,7 +65,7 @@ export abstract class abstractBll extends Core{
         return result;
     }
 
-    public async getAllByCondition(whereCondition: object, logMessage?:string) {
+    public async getAllByCondition(whereCondition: object, logMessage?: string) {
         let result;
         Utils.logger(logMessage);
         try {
@@ -77,7 +77,7 @@ export abstract class abstractBll extends Core{
         return result;
     }
 
-    public async getOneByCondition(whereCondition: object, logMessage?:string) {
+    public async getOneByCondition(whereCondition: object, logMessage?: string) {
         let result;
         Utils.logger(logMessage);
         try {
@@ -88,4 +88,5 @@ export abstract class abstractBll extends Core{
         }
         return result;
     }
+
 }

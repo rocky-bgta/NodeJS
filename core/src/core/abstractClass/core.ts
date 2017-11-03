@@ -15,6 +15,21 @@ export default abstract class Core {
         this.customObject = {};
     }
 
+    public castObject(targetObject: any, givenObject:any){
+        let buildObject: ICustomType = {};
+        let targetObjectPros = Object.keys(targetObject);
+        let givenObjectPros = Object.keys(givenObject);
+        for(let targetProperty of targetObjectPros){
+            for(let givenProperty of givenObjectPros){
+                if(targetProperty==givenProperty){
+                    buildObject[targetProperty] = givenObject[targetProperty];
+                    break;
+                }
+            }
+        }
+        return buildObject;
+    }
+
     public getRawQueryBuilder(){
         let result = globalModule.queryBuilder;
         return result;
