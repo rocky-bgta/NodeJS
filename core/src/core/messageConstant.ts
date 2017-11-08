@@ -5,7 +5,7 @@
  *Modified date:
  *(C) CopyRight Nybsys ltd.
  */
-export const Message = {
+export const MessageConstant = {
     //---------Common Message----------
 
     INVALID_REQUEST: 'Invalid request',
@@ -100,17 +100,9 @@ export const Message = {
     INVITE_USER_SUCCESSFULLY: 'Invite User successfully',
     FAILED_TO_SEND_USER_INVITE: 'Failed to Invite User',
 
-    //---------Reinvite User----------------
-    REINVITE_USER_SUCCESSFULLY: 'Reinvite user successfully',
-    FAILED_TO_REINVITE_USER: 'Failed to reinvite user',
-
-    //-----------Remove Invitation------------
-    REMOVE_INVITATION_SUCCESSFULLY: 'Remove invitation successfully',
-    FAILED_TO_REMOVE_INVITATION: 'Failed to remove invitation',
-
     //---------Business----------------
-    INVALID_BUSINESSID: 'Invalid BusinessID',
-    ALREADY_USER_WITH_BUSINESSID: 'Already Business With BusinessID',
+    INVALID_BUSINESS_ID: 'Invalid BusinessID',
+    ALREADY_USER_WITH_BUSINESS_ID: 'Already Business With BusinessID',
 
     SAVE_BUSINESS_SUCCESSFULLY: 'Save business successfully',
     FAILED_TO_SAVE_BUSINESS: 'Failed to save business',
@@ -118,7 +110,7 @@ export const Message = {
     BUSINESS_SELECT_SUCCESSFULLY: 'Business select successfully',
     FAILED_TO_SELECT_BUSINESS: 'Failed to select business',
 
-    BUSINESSID_REQUIRED: 'BusinessID required',
+    BUSINESS_ID_REQUIRED: 'BusinessID required',
 
     GET_ALL_BUSINESS_OPTION_SUCCESSFULLY: 'Get all business options successfully',
     FAILED_TO_GET_ALL_BUSINESS_OPTION: 'Failed to get all business option',
@@ -158,99 +150,6 @@ export const Message = {
     FAILED_TO_GET_ALL_ROLE_MAPPING: 'Failed to get all role mapping',
 
     GET_ALL_MAPPING: 'Get all mapping',
-    FAILED_TO_GET_ALL_MAPPING: 'Failed to get all mapping',
-
-    SAVE_COUNTRY_SUCCESSFULLY: 'Country save successfully',
-    FAILED_TO_SAVE_COUNTRY: 'Failed to save country',
-
-    GET_ALL_COUNTRIES: 'Get all countries',
-    FAILED_TO_GET_COUNTRIES: 'Failed to get countries',
-
-    SAVE_FINANCIAL_YEAR_SUCCESSFULLY: 'Financial year save successfully',
-    FAILED_TO_SAVE_FINANCIAL: 'Failed to save financial year',
-
-    GET_ALL_FINANCIAL_YEARS: 'Get all financial years',
-    FAILED_TO_GET_FINANCIAL_YEARS: 'Failed to get financial years',
-
-    SAVE_BUSINESS_CONTACT_SUCCESSFULLY: 'Business Contact save successfully',
-    FAILED_TO_SAVE_BUSINESS_CONTACT: 'Failed to save business contact',
-
-    GET_ALL_BUSINESS_CONTACTS: 'Get all business contacts',
-    FAILED_TO_GET_BUSINESS_CONTACTS: 'Failed to get business contacts',
-
-    GET_ALL_BUSINESS_DETAILS: 'Get all business details',
-    FAILED_TO_GET_BUSINESS_DETAILS: 'Failed to get business details',
-
-    GET_ALL_BUSINESS_ADDRESS_LIST: 'Get all business address list',
-    FAILED_TO_GET_BUSINESS_ADDRESS_LIST: 'Failed to get business address list',
-
-    GET_ALL_BUSINESS: 'Get all business address',
-    FAILED_TO_GET_BUSINESS: 'Failed to get business address',
-
-    SAVE_BUSINESS_DETAILS_SUCCESSFULLY: 'Business details save successfully',
-    FAILED_TO_SAVE_BUSINESS_DETAILS: 'Failed to save business details',
-
-    UPDATE_BUSINESS_DETAILS_SUCCESSFULLY: 'Business details update successfully',
-    FAILED_TO_UPDATE_BUSINESS_DETAILS: 'Failed to update business details',
-
-    FAILED_EXPECTATION_CODE: 417,
-    GET_ALL_BUSINESS_DETAILS_SUCCESSFULLY: 'All business details',
-
-    SAVE_ACCESS_RIGHT_SUCCESSFULLY: 'Access Right save successfully',
-    FAILED_TO_SAVE_ACCESS_RIGHT: 'Failed to Access Right',
-
-    UPDATE_ACCESS_RIGHT_SUCCESSFULLY: 'Access Right update successfully',
-    FAILED_TO_UPDATE_ACCESS_RIGHT: 'Failed to update access right',
-
-    GET_ALL_ACCESS_RIGHT: 'Get all access rights',
-    FAILED_TO_GET_ACCESS_RIGHT: 'Failed to get business details',
-
-    SAVE_PRIVILEGE_SERVICE_MAPPING_SUCCESSFULLY: 'Privilege service mapping save successfully',
-    FAILED_TO_SAVE_PRIVILEGE_SERVICE_MAPPING: 'Failed to save privilege service mapping',//'PrivilegeFacade service mapping failed',
-
-    UPDATE_PRIVILEGE_SERVICE_MAPPING_SUCCESSFULLY: 'Update privilege service mapping succesfully',
-    FAILED_TO_UPDATE_PRIVILEGE_SERVICE_MAPPING: 'Failed to update privilege service mapping',
-
-    GET_ALL_PRIVILEGE_SERVICE_MAPPING_SUCCESSFULLY: 'Get all privilege service mapping successfully',
-    FAILED_TO_GET_ALL_PRIVILEGE_SERVICE_MAPPING: 'Failed to get all privilege service mapping',
-
-    USER_ACTIVATE_SUCCESSFULLY: 'User activate successfully',
-    FAILED_TO_ACTIVATE_USER: 'Failed to activate user',
-    FAILED_TO_INACTIVATE_USER: 'Failed to inactivate user',
-
-    ONLY_OWNER_CAN_INACTIVE_USER: 'Only businessModel owner can inactivate user',
-    INACTIVATE_USER_SUCCESSFULLY: 'Inactivate user successfully',
-
-    NO_BUSINESS_FOUND: 'No business found',
-    BUSINESS_ALREADY_EXIST: 'Business already exist',
-
-    ROLE_ID_REQUIRED: 'RoleID required',
-
-    SAVE_ACCESS_RIGHT_ROLE_MAPPING_SUCCESSFULLY: 'Access right role mapping save successfully',
-    FAILED_TO_SAVE_ACCESS_RIGHT_ROLE_MAPPING: 'Failed to save Access right role',
-
-    GET_ALL_ACCESS_RIGHT_ROLE_MAPPING: 'Get all Access right role mapping',
-    FAILED_TO_GET_ACCESS_RIGHT_ROLE_MAPPING: 'Failed to get Access right role mapping',
-
-    UPDATE_ACCESS_RIGHT_ROLE_SUCCESSFULLY: 'Access right role mapping update successfully',
-    FAILED_TO_UPDATE_RIGHT_ROLE_MAPPING: 'Failed to update Access right role mapping',
-
-    GET_PRIVILEGE_LIST_SUCCESSFULLY: 'Get privilege list successfully',
-    FAILED_TO_GET_PRIVILEGE_LIST: 'Failed to get privilege list',
-
-    UPDATE_PRIVILEGE_SUCCESSFULLY: 'Update privilege successfully',
-    FAILED_TO_UPDATE_PRIVILEGE: 'Failed to update privilege',
-
-    SAVE_PRIVILEGE_SUCCESSFULLY: 'Save privilege successfully',
-    FAILED_TO_SAVE_PRIVILEGE: 'Failed to save privilege',
-
-    GET_GST_SETTING_SUCCESSFULLY: 'Get gst setting successfully',
-    FAILED_TO_GET_GST_SETTING: 'Failed to get gst setting',
-
-    UPDATE_GST_SETTING_SUCCESSFULLY: 'Update gst setting successfully',
-    FAILED_TO_UPDATE_GST_SETTING: 'Failed to update gst setting',
-
-    ADD_GST_SUCCESSFULLY: 'Add gst successfully',
-    FAILED_TO_ADD_GST: 'Failed to add gst',
+    FAILED_TO_GET_ALL_MAPPING: 'Failed to get all mapping'
 
 };
