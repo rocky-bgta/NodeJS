@@ -7,7 +7,7 @@
  */
 import {Sequelize} from "sequelize-typescript";
 import * as _ from 'lodash';
-import {ICustomType} from "../core/interface/ICustomType";
+//import {ICustomType} from "../core/interface/ICustomType";
 
 let fs = require('fs');
 let uniqid = require('uniqid');
@@ -85,7 +85,7 @@ export default class Utils {
         return result;
     }
 
-    static castObject(targetObject: any, givenObject:any){
+   /* static castObject(targetObject: any, givenObject:any){
         let buildObject: ICustomType = {};
         let targetObjectPros = Object.keys(targetObject);
         let givenObjectPros = Object.keys(givenObject);
@@ -98,7 +98,7 @@ export default class Utils {
             }
         }
         return buildObject;
-    }
+    }*/
 
     static uniqueIndexOnColunmn(tableName: string, columnName:string, indexName: string){
         'CREATE UNIQUE INDEX'+  indexName +'ON' + '"'+ tableName+'"' + '((lower('+ columnName +')));';
