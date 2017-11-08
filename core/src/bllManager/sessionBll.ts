@@ -7,7 +7,7 @@ import Authentication from "../security/authentication";
 import * as BLL from "../bllManager"
 import UserRightMapperModel from "../models/userBusinessRightMapperModel";
 import TokenModel from "../security/tokenModel";
-import {Singleton} from "typescript-ioc";
+import {Inject, Singleton} from "typescript-ioc";
 
 @Singleton
 export default class SessionBll extends BaseBll {
@@ -18,11 +18,11 @@ export default class SessionBll extends BaseBll {
         this.dao = new Dao(Entities.session);
     }
 
-    //@Inject
-    authentication: Authentication = new Authentication();
+    @Inject
+    authentication: Authentication;
 
-    //@Inject
-    userBusinessRightMapperBll: BLL.userBusinessRightMapper = new BLL.userBusinessRightMapper();
+    @Inject
+    userBusinessRightMapperBll: BLL.userBusinessRightMapper;
 
     //tokenModel: TokenModel
 
