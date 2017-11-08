@@ -13,8 +13,7 @@
     "build": "npm run clean && tsc && npm run swagger",
     "clean": "rimraf dist",
     "swagger": "swaggerGen -c ./swagger.config.json",
-    "tsc": "tsc && npm run swagger",
-    "watch": "./node_modules/.bin/ts-node-dev dist/index.js"
+    "tsc": "tsc && npm run swagger"
   },
   "dependencies": {
     "@types/datejs": "0.0.30",
