@@ -17,9 +17,14 @@ export default abstract class BaseDao extends Core {
     public async executeRawQuery(query: string, type:any){
         let result,numType;
         try {
-            numType= _.toNumber(type);
+
+            if(type!=null)
+                numType= _.toNumber(type);
+            else
+                throw Error;
+
             Util.logger("Dao executing row query");
-            if(type==0) {
+            if(numType==0) {
                 await sequelize.query(query).then((rows:any[]) => {
                     result = rows[0];
                     return;
